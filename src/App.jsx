@@ -105,10 +105,10 @@ function App() {
             <p className="text-lg text-red-600 font-bold">{messg}</p>
           )}
        
-     <div className="border border-gray-600 bg-gray-50 mt-4 shadow-md">
-     {bmi &&<span className="text-lg font-bold  text-green-600 "> Healthy BMI range: </span>  }
-     {bmi && <span className="text-lg font-extralight text-gray-600">18 kg/m2 - 25 kg/m2</span>}
-     </div>
+     {  bmi &&<div className="border border-gray-600  mt-4 shadow-md bg-blue-100">
+     <span className="text-lg font-bold  text-green-600 "> Healthy BMI range: </span>  
+     <span className="text-lg font-extralight text-gray-600">18 kg/m2 - 25 kg/m2</span>
+     </div>}
           
         </div>
 
